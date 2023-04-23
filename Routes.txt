@@ -1,0 +1,50 @@
+Routes
+
+
+1.
+
+Admin can CRUD Admins and Users
+
+1. Admin
+admin/
+
+
+
+1.1 Admin - Users
+"Create New user, List all users"
+admin/users/
+
+
+admin/users/:id/
+admin/users/:id/gamesessions/:id/
+admin/users/:id/wallet
+
+
+admin/users/:id/invoices
+admin/users/:id/transactions
+
+1.2 Admin - Games
+admin/games/:id/
+admin/games/categories/:id/
+admin/gamesessions/:id/
+
+1.3 Admin - Adds
+admin/ads/:id/
+admin/promoactions/:id/
+admin/files/:id/
+
+1.4 Admin - Finance
+admin/transactions/:id/
+admin/invoices/
+admin/currencies/
+admin/offers/
+
+admin/paymentproviders/
+
+
+2. User
+user/
+user/wallet
+user/games/
+user/transactions/:id/
+user/files/
